@@ -1,0 +1,6 @@
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\obj\Tools\Mod Kit.csprojAssemblyReference.cache
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\obj\Tools\Mod Kit.csproj.CoreCompileInputs.cache
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\bin\Tools\Mod Kit.dll
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\bin\Tools\Mod Kit.pdb
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\obj\Tools\Mod Kit.dll
+C:\Users\dnesov\Documents\GitHub\ModKit\.mono\temp\obj\Tools\Mod Kit.pdb
