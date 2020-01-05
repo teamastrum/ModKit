@@ -52,7 +52,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addons\ModKit\Docks\Scripts\ToolsMenu.cs" />
     <Compile Include="addons\ModKit\ModKit.cs" />
+    <Compile Include="addons\ModKit\Presets\Scripts\InventoryItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

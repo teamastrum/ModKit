@@ -1,0 +1,66 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 1 )
+colors = PoolColorArray( 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[node name="Tools" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 32
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ModPreset" type="VBoxContainer" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 186.0
+rect_min_size = Vector2( 239, 186 )
+size_flags_vertical = 0
+custom_constants/separation = 16
+
+[node name="Label" type="Label" parent="VBoxContainer/ModPreset"]
+margin_right = 1024.0
+margin_bottom = 14.0
+text = "Initialize mod"
+
+[node name="ModPresetOption" type="OptionButton" parent="VBoxContainer/ModPreset"]
+margin_top = 30.0
+margin_right = 1024.0
+margin_bottom = 50.0
+text = "Item"
+items = [ "Item", null, false, 0, null, "Map", null, true, 1, null, "Weapon", null, true, 2, null ]
+selected = 0
+
+[node name="Label2" type="RichTextLabel" parent="VBoxContainer/ModPreset"]
+margin_top = 66.0
+margin_right = 1024.0
+margin_bottom = 66.0
+bbcode_enabled = true
+bbcode_text = "[color=red]WARNING![/color] This will modify your current scene!"
+text = "WARNING! This will modify your current scene!"
+scroll_active = false
+
+[node name="Button" type="Button" parent="VBoxContainer/ModPreset"]
+margin_top = 82.0
+margin_right = 1024.0
+margin_bottom = 102.0
+text = "Initialize"
+
+[node name="Line" type="TextureRect" parent="VBoxContainer/ModPreset"]
+margin_top = 118.0
+margin_right = 1024.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 0, 2 )
+texture = SubResource( 2 )
+expand = true
